@@ -37,14 +37,14 @@ void ReadFile()
             Minfo[i].MonsterRace, Minfo[i].MonsterSpecialEffect);
             i++;
     }
-    printf("%d",i);
+   // printf("%d",i);
     fclose(fp);
     MAXLENTH=i;
 }
 
     void Show_n(int i)
     {
-        printf("%s\t%s\t%d\t%d\t%d\t%s\t%s\t\n",Minfo[i].MonsterName,
+        printf("%-10s\t%s\t%d\t%d\t%d\t%s\t%s\t\n",Minfo[i].MonsterName,
             Minfo[i].MonsterRarity, Minfo[i].MonsterCost,
            Minfo[i].MonsterAttack, Minfo[i].MonsterHealth,
             Minfo[i].MonsterRace, Minfo[i].MonsterSpecialEffect);
@@ -56,7 +56,7 @@ void ReadFile()
         int i;
         for(i=0;i<MAXLENTH;i++)
         {
-            printf("%s\t%s\t%d\t%d\t%d\t%s\t%s\t\n",Minfo[i].MonsterName,
+            printf("%-10s\t%s\t%d\t%d\t%d\t%s\t%s\t\n",Minfo[i].MonsterName,
                 Minfo[i].MonsterRarity, Minfo[i].MonsterCost,
                 Minfo[i].MonsterAttack, Minfo[i].MonsterHealth,
                 Minfo[i].MonsterRace, Minfo[i].MonsterSpecialEffect);
