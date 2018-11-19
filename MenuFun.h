@@ -70,4 +70,10 @@ void MenuExit()
     }
 
 }
+void MenuSort()
+{
+    printf("----------ÀÊ¥”≈≈–ÚΩÁ√Ê----------\n");
+    Sort();
+    MenuStart();
+}
 #endif

@@ -20,7 +20,8 @@ void MenuStart()
     printf("3.保存文件\n");
     printf("4.查找随从\n");
     printf("5.更新随从属性\n");
-    printf("6.退出程序\n");
+    printf("6.随从排序\n");
+    printf("7.退出程序\n");
     printf("请选择您需要进行的操作：");
     scanf("%d",&i);
 
@@ -37,8 +38,9 @@ void MenuStart()
         break;
         case 5:MenuUpdate();
         break;
-        case 6:MenuExit();
+        case 6:MenuSort();
         break;
+        case 7:MenuExit();
     }
 }
 
