@@ -44,7 +44,8 @@ void ReadFile()
 
     void Show_n(int i)
     {
-        printf("%-10s\t%s\t%d\t%d\t%d\t%s\t%s\t\n",Minfo[i].MonsterName,
+        printf("     名称\t稀有度\t费用\t攻击力\t血量\t种族\t特殊效果\n");
+        printf("%+10s\t%s\t%d\t%d\t%d\t%s\t%s\t\n",Minfo[i].MonsterName,
             Minfo[i].MonsterRarity, Minfo[i].MonsterCost,
            Minfo[i].MonsterAttack, Minfo[i].MonsterHealth,
             Minfo[i].MonsterRace, Minfo[i].MonsterSpecialEffect);
@@ -54,9 +55,10 @@ void ReadFile()
 
     {
         int i;
+        printf("     名称\t稀有度\t费用\t攻击力\t血量\t种族\t特殊效果\n");
         for(i=0;i<MAXLENTH;i++)
         {
-            printf("%-10s\t%s\t%d\t%d\t%d\t%s\t%s\t\n",Minfo[i].MonsterName,
+            printf("%+10s\t%s\t%d\t%d\t%d\t%s\t%s\t\n",Minfo[i].MonsterName,
                 Minfo[i].MonsterRarity, Minfo[i].MonsterCost,
                 Minfo[i].MonsterAttack, Minfo[i].MonsterHealth,
                 Minfo[i].MonsterRace, Minfo[i].MonsterSpecialEffect);
