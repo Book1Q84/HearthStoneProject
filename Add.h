@@ -1,8 +1,7 @@
 #ifndef Add_h
 #define Add_h
 #include "Initialization.h"
-#include<stdio.h>
-#include<stdlib.h>
+
 /*
         Add.h修改历史
             1.创建Add.h
