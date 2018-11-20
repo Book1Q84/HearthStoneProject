@@ -44,6 +44,8 @@ void Sort()
 
     }
      Show_all();
+     Sleep(5000);
+     system("cls");
    // else  if(strcmp(way,"生命值")!=0)大致这样需要再加
 
 }

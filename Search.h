@@ -18,7 +18,7 @@ void  Search_by_name()
     int i;
 	char S_Name[25];//定义字符串数组，存放查找的名字
 	printf("----------------------------\n");
-	printf("******Serch By Name*********\n");
+	printf("******按照随从名查找*********\n\n\n\n");
 	printf("*****请输入要查找的卡牌*****\n");
 	fflush(stdin);
 	gets(S_Name);

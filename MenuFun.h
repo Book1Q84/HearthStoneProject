@@ -15,6 +15,7 @@ void MenuAdd()
     printf("—————————添加新卡牌界面—————————\n");
     Add();
     //system("clear");
+    Show_all();
     MenuStart();
 }
 
@@ -23,6 +24,7 @@ void MenuDelete()
     printf("—————————删除原有随从界面————————\n");
     Delete();
     //system("clear");
+    Show_all();
     MenuStart();
 }
 
@@ -31,6 +33,7 @@ void MenuSaveFile()
     printf("——————————保存文件界面——————————\n");
     SaveFile();
     //system("clear");
+    Show_all();
     MenuStart();
 }
 
@@ -39,6 +42,7 @@ void MenuSearch()
     printf("——————————查找随从界面——————————\n");
     //这里应使用查找函数
     Search_by_name();
+    Show_all();
     //system("clear");
     MenuStart();
 }
@@ -48,6 +52,7 @@ void MenuUpdate()
     printf("——————————更新随从属性界面——————————\n");
     //这里应使用更新函数
     Update();
+    Show_all();
     //system("clear");
     MenuStart();
 }
@@ -74,6 +79,7 @@ void MenuSort()
 {
     printf("----------随从排序界面----------\n");
     Sort();
+    Show_all();
     MenuStart();
 }
 #endif
