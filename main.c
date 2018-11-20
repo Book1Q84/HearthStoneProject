@@ -7,6 +7,10 @@
 #include "Search.h"
 #include "Update.h"
 #include "MenuFun.h"
+#include "Sort.h"
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
 /*
     炉石怪物收藏簿
     小组成员：
@@ -30,6 +34,5 @@
 int main(int argc, char **argv)
 {
     ReadFile();
-    //printf("1");
     MenuStart();
 }

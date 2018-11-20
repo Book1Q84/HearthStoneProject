@@ -1,7 +1,7 @@
 #ifndef MenuFun_h
 #define MenuFun_h
 #include "Initialization.h"
-#include "Menu.h"
+
 /*
         MenuFun.h修改历史
             1.创建MenuFun.h

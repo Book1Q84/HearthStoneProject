@@ -1,7 +1,6 @@
 #ifndef Delete_h
 #define Delete_h
 #include "Initialization.h"
-#include "SaveFile.h"
 /*
         Delete.h修改历史
             1.创建Delete.h
