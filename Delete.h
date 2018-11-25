@@ -30,7 +30,7 @@ void Delete()//形参需要是结构体数组
 				Show_all();
 				break;
 		}
-		else if(i=MAXLENTH-1&&strcmp(MonsterInfo_name,Minfo[i].MonsterName)!=0)
+		else if(i==MAXLENTH-1&&strcmp(MonsterInfo_name,Minfo[i].MonsterName)!=0)
         {
             printf("未找到该随从名，请重试！\n\n");
             break;
