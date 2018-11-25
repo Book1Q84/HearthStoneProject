@@ -52,7 +52,7 @@ void SaveFile()
     }
     else if(flag=='N'||flag=='n')
     {
-        exit(0);
+
     }
 
 }
